@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400&display=swap");
+
+body {
+  font-family: "Fira Code", monospace;
+  background-color: rgb(255, 212, 155);
+  color: #fff;
+  margin: 0;
+}
+.main {
+  border: 10px #ffdfa4;
+  border-radius: 20px;
+  /* background-color: rgb(194, 184, 240); */
+  background-color: rgb(184, 116, 39);
+  height: 10em;
+  width: 35em;
+  padding: 2em 5em 5em 5em;
+  text-align: center;
+  margin: 10% auto auto auto;
+}
+/* верхняя панель */
+.header {
+  display: table;
+  text-align: center;
+  width: 20%;
+  margin: 0 0 0 auto;
+}
+.header div {
+  display: table-cell;
+  vertical-align: middle;
+  width: 10%;
+  height: 4em;
+}
+.header-container {
+  background-color: rgb(49, 26, 0);
+  height: 4em;
+  margin: 0 0 auto 0;
+}
+/* ссылки верхней панели */
+.header a {
+  color: rgb(202, 150, 82);
+}
+/* все ссылки */
+a {
+  color: #4b1100;
+  /* удалили подчеркивание */
+  text-decoration: none;
+}
